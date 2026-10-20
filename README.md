@@ -42,7 +42,9 @@ perceive (Sleeper API: leagues, rosters, players, projections)
 Files:
 - `sleeper_optimizer.py` - optimizer + CLI, read-only
 - `agent.py` - digest + start/sit chat logic, read-only
+- `waiver.py` - waiver wire, top free agents by team need, read-only
 - `example_digest_week7.md` - real output for Week 7
+- `example_waiver_week8.md` - real waiver output for Week 8
 
 ## Usage
 
@@ -57,7 +59,7 @@ No API key needed. Sleeper API is public. No roster changes.
 
 - Layer 1 (done): Optimizer
 - Layer 2 (done): Digest + start/sit chat
-- Layer 3: Waiver wire - top free agents by team need
+- Layer 3 (done): Waiver wire - top free agents by team need
 - Layer 4: Trade finder - win-win trades that raise both starters
 - Layer 5: Memory + learning - preferences, track if calls were right
 - Later: ESPN (beta, via espn_api), Discord / SMS alerts, auto-sub opt-in
